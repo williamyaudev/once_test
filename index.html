@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./main.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="title">今天吃什麼？</h1>
+            <h2>類型</h2>
+            <div class="category">
+                <label for="brunch">早午餐</label>
+                <input type="checkbox" name="brunch" id="brunch" />
+                <label for="rice">飯</label>
+                <input type="checkbox" name="rice" id="rice" />
+                <label for="noodle">麵</label>
+                <input type="checkbox" name="noodle" id="noodle" />
+                <label for="buffet">自助餐</label>
+                <input type="checkbox" name="buffet" id="buffet" />
+                <label for="others">其它</label>
+                <input type="checkbox" name="others" id="others" />
+            </div>
+            <button id="btn" type="button">Roll</button>
+
+            <div class="show-eat">
+                <h2>今天吃...</h2>
+                <h2 id="result">什麼呢？！！</h2>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
